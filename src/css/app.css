@@ -1,6 +1,8 @@
 @import-normalize;
 @import "font.css";
 @import "buttons.css";
+@import "recipe.css";
+@import "ingredient-list.css";
 @import "recipe-list.css";
 
 *,
@@ -16,4 +18,8 @@ html {
 body {
   padding: 0;
   margin: 0;
+}
+
+.mr-1 {
+  margin-right: 5px;
 }
